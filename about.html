@@ -5,11 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CJWIT1</title>
+    <title>CJWIT</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/slick-theme.css">
+
+
 
 </head>
 
@@ -93,7 +97,7 @@
                                 </a>
                             </div>
                             <div class="step_count ">
-                                <a href="#" class="active"><span>1</span></a>
+                                <a href="#"><span>1</span></a>
                                 <a href="#"><span>2</span></a>
                                 <a href="#"><span>3</span></a>
                             </div>
@@ -117,9 +121,9 @@
                                 </a>
                             </div>
                             <div class="step_count">
-                                <a href="#"><span>7</span></a>
-                                <a href="#"><span>8</span></a>
-                                <a href="#"><span>9</span></a>
+                                <a href="#" class="active stp-7 cstp_7"><span>7</span></a>
+                                <a href="#" class="stp-8 cstp_8"><span>8</span></a>
+                                <a href="#" class="stp-9 cstp_9"><span>9</span></a>
                             </div>
                         </div>
                         <div class="col-md-2">
@@ -158,15 +162,14 @@
         <div class="sticky-csteps">
             <div class="container">
                 <div class="sticky-wrapper row">
-                    <div class="col-md-4 active">
-                        </i>
-                        <h2>Step 4 - Watch </h2>
+                    <div class="col-md-4 active"><i class="far fa-address-card hvr-icon" aria-hidden="true"></i>
+                        <h2>Step 7- Watch </h2>
                     </div>
-                    <div class="col-md-4 "><i class="far fa-bell hvr-icon" aria-hidden="true"></i>
-                        <h2>Step 5 - Subscribe </h2>
+                    <div class="col-md-4 "><i class="fa fa-book hvr-icon" aria-hidden="true"></i>
+                        <h2>Step 8 - Subscribe </h2>
                     </div>
-                    <div class="col-md-4 "><i class="fas fa-glasses hvr-icon" aria-hidden="true"></i>
-                        <h2>Step 6 - Cool </h2>
+                    <div class="col-md-4 "><i class="fas fa-brain hvr-icon" aria-hidden="true"></i>
+                        <h2>Step 9 - Cool </h2>
                     </div>
                 </div>
             </div>
@@ -174,9 +177,9 @@
         <!-- yop-steps ends-->
 
         <!-- step 4 starts -->
-        <div class="step-7-main main-class">
+        <div class="step-7-main collapse cdata_7 main-class show" id="stepSeven" aria-labelledby="headingSeven" data-parent="#main_content">
             <div class="container">
-                <div class="step-7-inner row">
+                <div class=" row">
                     <div class="step-7-inner-left col-md-6">
                         <div class="step-7-left-title page-com-title">
                             <h3>WELCOME TO…<br>DECISION MAKING MASTERY</h3>
@@ -192,1104 +195,902 @@
                     </div>
 
                 </div>
-                <div class="nav-links row">
-                    <div class="col-md-3">
-                        <a href="#" class="main-prev-link"><i class="fas fa-chevron-left"> </i>Previous </i></a>
-                    </div>
-                    <div class="col-md-3">
-                        <a href="#" class="main-next-link">Next <i class="fas fa-chevron-right"></i></a>
-                    </div>
-                </div>
             </div>
         </div>
         <!-- step 4 starts -->
 
         <!-- step 5 -->
-        <div class="step-8-main main-class">
-            <div class="container">
-                <div class="step-8-inner">
-                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="step-8 first-row row">
-                                    <div class="first-row-head col-md-12">
-                                        <div class="row first-box-row-head">
-                                            <div class="first-box-row-head-left col-md-10">
-                                                <div class="first-box-title">
-                                                    <h3>The ONLY 2 Ways To Success</h3>
-                                                </div>
-                                                <div class="first-box-desc">
-                                                    <p>The Drainer/Gainer Exercise</p>
-                                                </div>
-                                            </div>
-                                            <div class="first-box-row-head-left col-md-2">
-                                                <div class="row">
-                                                    <div class="col-md-6 chev-prev">
-                                                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                                                            <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fas fa-chevron-left"></i></span>
-                                                            <span class="sr-only">Previous</span>
-                                                        </a>
-                                                    </div>
-                                                    <div class="col-md-6 chev-next">
-                                                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                                                            <span class="carousel-control-next-icon" aria-hidden="true"><i class="fas fa-chevron-right"></i></span>
-                                                            <span class="sr-only">Next</span>
-                                                        </a>
-                                                    </div>
+        <div class="step-8-main collapse cdata_8 main-class" id="stepEight" aria-labelledby="headingEight" data-parent="#main_content">
+            <div class="container-md p-0">
+                <div class="step-8-main-inner p-0" style="overflow: hidden;" id="tmpDiv1">
+                    <div style="overflow: hidden; overflow: hidden;
+                    padding: 20px 15px;
+                    position: relative;
+                    z-index: 1000000000;
+                    background: #fff;">
+                        <div class="step-8-main-head">
+                            <div class="step-8-main-title tab-title">
+                                <h2>IS THIS DUDE WORTH MY TIME AND ATTENTION?</h2>
+                            </div>
+                            <div class="step-8-main-desc tab-desc">
+                                <p>For many, the answer may very well be… NO.</p>
+                            </div>
+                        </div>
+                        <div class="step-8 first-row row">
+                            <div class="first-row-vid col-md-6">
+                                <iframe id="step8" class="step8frame" src="https://player.vimeo.com/video/453355947" width="100%" height="312" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
+                            </div>
+                            <div class="first-row-tabs col-md-6">
+                                <div class="tabs-button row">
+                                    <div class="col-md-6">
+                                        <div class="tabs-read-btn">
+                                            <a href="#" class="tab-read-link btn-black active"><span><i class="fa fa-book" aria-hidden="true"></i></span> Read</a>
+                                        </div>
+                                        <div class="tabs-share-btn">
+                                            <a href="#" class="tab-share-link btn-black"><span><i class="fa fa-share-alt " aria-hidden="true"></i></span> Share</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="tabs-listen-btn ">
+                                            <a href="#" class="tab-listen-link btn-black"><span><i class="fa fa-podcast" aria-hidden="true"></i></span> Listen</a>
+                                        </div>
+                                        <div class="tabs-downloads-btn">
+                                            <a href="#" class="tabs-down-link btn-black"><span><i class="fa fa-download" aria-hidden="true"></i></span> Downloads</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="tabs-count-btn">
+                                            <a href="#" class="tabs-count-link btn-black"><span><i class="fa fa-rss" aria-hidden="true"></i></span> Count Me In</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- read section -->
+                    <div class="step8 read-section tab-show-section active p-3">
 
-                                                    <div class="first-box-page-no">
-                                                        <h3>Episode 001</h3>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="first-row-vid col-md-6">
-                                        <iframe id="step2" class="step2frame videoo" src="https://player.vimeo.com/video/454021971" width="100%" height="312" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
-                                    </div>
-                                    <div class="first-row-tabs col-md-6">
-                                        <div class="tabs-button row">
-                                            <div class="col-md-6">
-                                                <div class="tabs-read-btn">
-                                                    <a href="#" class="tab-read-link btn-black active"><span><i class="fa fa-book" aria-hidden="true"></i></span> Read</a>
-                                                </div>
-                                                <div class="tabs-share-btn">
-                                                    <a href="#" class="tab-share-link btn-black"><span><i class="fa fa-share-alt " aria-hidden="true"></i></span> Share</a>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="tabs-listen-btn ">
-                                                    <a href="#" class="tab-listen-link btn-black"><span><i class="fa fa-podcast" aria-hidden="true"></i></span> Listen</a>
-                                                </div>
-                                                <div class="tabs-downloads-btn">
-                                                    <a href="#" class="tabs-down-link btn-black"><span><i class="fa fa-download" aria-hidden="true"></i></span> Downloads</a>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="tabs-count-btn">
-                                                    <a href="#" class="tabs-count-link btn-black"><span><i class="fa fa-rss" aria-hidden="true"></i></span> Count Me In</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- read section -->
-                                <div class="step2 read-section tab-show-section active">
-                                    <div class="step-2-middle-title step5">
-                                        <h2>Your Heading Text</h2>
-                                    </div>
-                                    <div class="step-8 firstrow-pop-desc">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
-                                            it to make a type specimen book.</p>
-                                    </div>
-                                </div>
-                                <!-- read section -->
-                                <!-- audio section -->
-                                <div class="step2 audio-section tab-show-section">
-                                    <div class="audio-content col-md-12">
-                                        <audio src="./images/audio.mp3" controls class="audio-content-data"></audio>
-
-                                    </div>
-                                    <div class="audio-download col-md-3">
-                                        <a href="#" class="audio-download-link">Download</a>
-                                    </div>
-                                </div>
-                                <!-- audio section -->
-                                <!-- social section -->
-                                <div class="step2 social-section tab-show-section">
-                                    <div class="social-section-main">
-                                        <div class="social-section-title">
-                                            <h2>Social Share :</h2>
-                                        </div>
-                                        <div class="social-section-boxes row">
-                                            <div class="col-md-1"></div>
-                                            <div class="social-box col-md-2">
-                                                <a href="#" class="social-box-links"><img src="./images/eamil-icon-1.jpg" alt=""></a>
-                                            </div>
-                                            <div class="social-box col-md-2">
-                                                <a href="#" class="social-box-links"><img src="./images/facebook-icon-1.jpg" alt=""></a>
-                                            </div>
-                                            <div class="social-box col-md-2">
-                                                <a href="#" class="social-box-links"><img src="./images/twitter-icon.jpg" alt=""></a>
-                                            </div>
-                                            <div class="social-box col-md-2">
-                                                <a href="#" class="social-box-links"><img src="./images/linkedin-icon-1.jpg" alt=""></a>
-                                            </div>
-                                            <div class="social-box col-md-2">
-                                                <a href="#" class="social-box-links"><img src="./images/reddit-icon.png" alt=""></a>
-                                            </div>
-                                            <div class="col-md-1"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- social section -->
-                                <!-- download section -->
-                                <div class="step2 download-section tab-show-section">
-                                    <div class="download-section-inner">
-                                        <div class="col-md-6">
-                                            <div class="col-md-7 download-links">
-                                                <a href="#" class="dow-download-link"><span><i class="fa fa-download" aria-hidden="true"></i></span>Download</a>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="col-md-7 download-share-links">
-                                                <a href="#" class="dow-slide-here-link"><span><i class="fas fa-sliders-h"></i></span>Slide Share</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- download section -->
-                                <!-- count me in section -->
-                                <div class="step2 count-me-section tab-show-section">
-                                    <div class="count-me-inner">
-                                        <div class="count-me-inner-title">
-                                            <h3>GET NOTIFICATIONS FOR NEW EVENTS AND EPISODES</h3>
-                                        </div>
-                                        <div class="form">
-                                            <div class="count-me-form">
-                                                <div class="col-md-6">
-                                                    <input type="email" name="count-me-email" id="count-mail" placeholder="Your Email">
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="count-me-submit">
-                                                        <button class="count-me-submit-btn"><span><i class="fa fa-bell" aria-hidden="true"></i></span> Keep Me In The Loop!</button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- count me in section -->
+                        <div class="col-md-12" style="padding:0px;">
+                            <h1 class="big-heading-about">Here’s How You Can Benefit<br> From CJ’s Experience and Insights</h1>
+                            <!--  -->
+                            <div class="heading-bg">
+                                <h3 class="heading-whitetxt-abt ">My Passion Is To Help You:</h3>
                             </div>
                             <!--  -->
-                            <div class="carousel-item">
-                                <div class="step-8 first-row row">
-                                    <div class="first-row-head col-md-12">
-                                        <div class="row first-box-row-head">
-                                            <div class="first-box-row-head-left col-md-10">
-                                                <div class="first-box-title">
-                                                    <h3>Purpose Statement Template</h3>
-                                                </div>
-                                                <div class="first-box-desc">
-                                                    <p>How To Develop Your Personal Purpose Statement</p>
-                                                </div>
-                                            </div>
-                                            <div class="first-box-row-head-left col-md-2">
-                                                <div class="row">
-                                                    <div class="col-md-6 chev-prev">
-                                                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                                                            <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fas fa-chevron-left"></i></span>
-                                                            <span class="sr-only">Previous</span>
-                                                        </a>
-                                                    </div>
-                                                    <div class="col-md-6 chev-next">
-                                                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                                                            <span class="carousel-control-next-icon" aria-hidden="true"><i class="fas fa-chevron-right"></i></span>
-                                                            <span class="sr-only">Next</span>
-                                                        </a>
-                                                    </div>
-
-                                                    <div class="first-box-page-no">
-                                                        <h3>Episode 002</h3>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
+                            <div class="bg-white-abt">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p class="subheading-sect-txt-new text-center"><b>Discover Truth </b>(that which holds no contradiction)</p>
+                                        <p class="subheading-sect-txt-new text-center"><b>Make Better Decisions… Faster!</b> So you can…</p>
+                                        <p></p>
                                     </div>
-                                    <div class="first-row-vid col-md-6">
-                                        <iframe id="step2" class="step5frame videoo" src="https://player.vimeo.com/video/445786185" width="100%" height="312" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
-                                    </div>
-                                    <div class="first-row-tabs col-md-6">
-                                        <div class="tabs-button row">
-                                            <div class="col-md-6">
-                                                <div class="tabs-read-btn">
-                                                    <a href="#" class="tab-read-link btn-black active"><span><i class="fa fa-book" aria-hidden="true"></i></span> Read</a>
-                                                </div>
-                                                <div class="tabs-share-btn">
-                                                    <a href="#" class="tab-share-link btn-black"><span><i class="fa fa-share-alt " aria-hidden="true"></i></span> Share</a>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="tabs-listen-btn ">
-                                                    <a href="#" class="tab-listen-link btn-black"><span><i class="fa fa-podcast" aria-hidden="true"></i></span> Listen</a>
-                                                </div>
-                                                <div class="tabs-downloads-btn">
-                                                    <a href="#" class="tabs-down-link btn-black"><span><i class="fa fa-download" aria-hidden="true"></i></span> Downloads</a>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="tabs-count-btn">
-                                                    <a href="#" class="tabs-count-link btn-black"><span><i class="fa fa-rss" aria-hidden="true"></i></span> Count Me In</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <p></p>
                                 </div>
-                                <!-- read section -->
-                                <div class="step2 read-section tab-show-section active">
-                                    <div class="step-2-middle-title step5">
-                                        <h2>Your Heading Text</h2>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h3 class="subheading-sect-txt text-center">PERSONALLY</h3>
+                                        <h4 class="subheading-bold-text text-center">Experience Transformation</h4>
+                                        <p class="sectxt-small-data text-center">When You Realize The Truth About How Loved You Are, You Enter Transformation</p>
+                                        <p> <img class="img-eighty-width" src="./images/image.png">
+                                        </p>
                                     </div>
-                                    <div class="step-8 firstrow-pop-desc">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
-                                            it to make a type specimen book.</p>
+                                    <div class="col-md-6">
+                                        <h3 class="subheading-sect-txt text-center">PROFESSIONALLY</h3>
+                                        <h4 class="subheading-bold-text text-center">Escape Competition</h4>
+                                        <p class="sectxt-small-data text-center">Become 1,000 X Better Than You Already Are… So You Can Escape Competition</p>
+                                        <p> <img class="img-eighty-width" src="./images/compiton.png">
+                                        </p>
                                     </div>
+                                    <p></p>
                                 </div>
-                                <!-- read section -->
-                                <!-- audio section -->
-                                <div class="step2 audio-section tab-show-section">
-                                    <div class="audio-content col-md-12">
-                                        <audio src="./images/audio.mp3" controls class="audio-content-data"></audio>
-
-                                    </div>
-                                    <div class="audio-download col-md-3">
-                                        <a href="#" class="audio-download-link">Download</a>
-                                    </div>
-                                </div>
-                                <!-- audio section -->
-                                <!-- social section -->
-                                <div class="step2 social-section tab-show-section">
-                                    <div class="social-section-main">
-                                        <div class="social-section-title">
-                                            <h2>Social Share :</h2>
-                                        </div>
-                                        <div class="social-section-boxes row">
-                                            <div class="col-md-1"></div>
-                                            <div class="social-box col-md-2">
-                                                <a href="#" class="social-box-links"><img src="./images/eamil-icon-1.jpg" alt=""></a>
-                                            </div>
-                                            <div class="social-box col-md-2">
-                                                <a href="#" class="social-box-links"><img src="./images/facebook-icon-1.jpg" alt=""></a>
-                                            </div>
-                                            <div class="social-box col-md-2">
-                                                <a href="#" class="social-box-links"><img src="./images/twitter-icon.jpg" alt=""></a>
-                                            </div>
-                                            <div class="social-box col-md-2">
-                                                <a href="#" class="social-box-links"><img src="./images/linkedin-icon-1.jpg" alt=""></a>
-                                            </div>
-                                            <div class="social-box col-md-2">
-                                                <a href="#" class="social-box-links"><img src="./images/reddit-icon.png" alt=""></a>
-                                            </div>
-                                            <div class="col-md-1"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- social section -->
-                                <!-- download section -->
-                                <div class="step2 download-section tab-show-section">
-                                    <div class="download-section-inner">
-                                        <div class="col-md-6">
-                                            <div class="col-md-7 download-links">
-                                                <a href="#" class="dow-download-link"><span><i class="fa fa-download" aria-hidden="true"></i></span>Download</a>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="col-md-7 download-share-links">
-                                                <a href="#" class="dow-slide-here-link"><span><i class="fas fa-sliders-h"></i></span>Slide Share</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- download section -->
-                                <!-- count me in section -->
-                                <div class="step2 count-me-section tab-show-section">
-                                    <div class="count-me-inner">
-                                        <div class="count-me-inner-title">
-                                            <h3>GET NOTIFICATIONS FOR NEW EVENTS AND EPISODES</h3>
-                                        </div>
-                                        <div class="form">
-                                            <div class="count-me-form">
-                                                <div class="col-md-6">
-                                                    <input type="email" name="count-me-email" id="count-mail" placeholder="Your Email">
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="count-me-submit">
-                                                        <button class="count-me-submit-btn"><span><i class="fa fa-bell" aria-hidden="true"></i></span> Keep Me In The Loop!</button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- count me in section -->
                             </div>
                             <!--  -->
-                            <div class="carousel-item">
-                                <div class="step-8 first-row row">
-                                    <div class="first-row-head col-md-12">
-                                        <div class="row first-box-row-head">
-                                            <div class="first-box-row-head-left col-md-10">
-                                                <div class="first-box-title">
-                                                    <h3>The ONLY 2 Ways To Success</h3>
-                                                </div>
-                                                <div class="first-box-desc">
-                                                    <p>The Drainer/Gainer Exercise</p>
-                                                </div>
-                                            </div>
-                                            <div class="first-box-row-head-left col-md-2">
-                                                <div class="row">
-                                                    <div class="col-md-6 chev-prev">
-                                                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                                                            <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fas fa-chevron-left"></i></span>
-                                                            <span class="sr-only">Previous</span>
-                                                        </a>
-                                                    </div>
-                                                    <div class="col-md-6 chev-next">
-                                                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                                                            <span class="carousel-control-next-icon" aria-hidden="true"><i class="fas fa-chevron-right"></i></span>
-                                                            <span class="sr-only">Next</span>
-                                                        </a>
-                                                    </div>
-
-                                                    <div class="first-box-page-no">
-                                                        <h3>Episode 003</h3>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="first-row-vid col-md-6">
-                                        <iframe id="step2" class="step2frame videoo" src="https://player.vimeo.com/video/445786466" width="100%" height="312" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
-                                    </div>
-                                    <div class="first-row-tabs col-md-6">
-                                        <div class="tabs-button row">
-                                            <div class="col-md-6">
-                                                <div class="tabs-read-btn">
-                                                    <a href="#" class="tab-read-link btn-black active"><span><i class="fa fa-book" aria-hidden="true"></i></span> Read</a>
-                                                </div>
-                                                <div class="tabs-share-btn">
-                                                    <a href="#" class="tab-share-link btn-black"><span><i class="fa fa-share-alt " aria-hidden="true"></i></span> Share</a>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="tabs-listen-btn ">
-                                                    <a href="#" class="tab-listen-link btn-black"><span><i class="fa fa-podcast" aria-hidden="true"></i></span> Listen</a>
-                                                </div>
-                                                <div class="tabs-downloads-btn">
-                                                    <a href="#" class="tabs-down-link btn-black"><span><i class="fa fa-download" aria-hidden="true"></i></span> Downloads</a>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="tabs-count-btn">
-                                                    <a href="#" class="tabs-count-link btn-black"><span><i class="fa fa-rss" aria-hidden="true"></i></span> Count Me In</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- read section -->
-                                <div class="step2 read-section tab-show-section active">
-                                    <div class="step-2-middle-title step5">
-                                        <h2>Your Identity Determines Your Behavior.</h2>
-                                    </div>
-                                    <div class="step-8 firstrow-pop-desc">
-                                        <p>"The Fastest Way To Change Your Behavior Is To Change Your Identity." (Neil T. Anderson)</p>
-                                    </div>
-                                </div>
-                                <!-- read section -->
-                                <!-- audio section -->
-                                <div class="step2 audio-section tab-show-section">
-                                    <div class="audio-content col-md-12">
-                                        <audio src="./images/audio.mp3" controls class="audio-content-data"></audio>
-
-                                    </div>
-                                    <div class="audio-download col-md-3">
-                                        <a href="#" class="audio-download-link">Download</a>
-                                    </div>
-                                </div>
-                                <!-- audio section -->
-                                <!-- social section -->
-                                <div class="step2 social-section tab-show-section">
-                                    <div class="social-section-main">
-                                        <div class="social-section-title">
-                                            <h2>Social Share :</h2>
-                                        </div>
-                                        <div class="social-section-boxes row">
-                                            <div class="col-md-1"></div>
-                                            <div class="social-box col-md-2">
-                                                <a href="#" class="social-box-links"><img src="./images/eamil-icon-1.jpg" alt=""></a>
-                                            </div>
-                                            <div class="social-box col-md-2">
-                                                <a href="#" class="social-box-links"><img src="./images/facebook-icon-1.jpg" alt=""></a>
-                                            </div>
-                                            <div class="social-box col-md-2">
-                                                <a href="#" class="social-box-links"><img src="./images/twitter-icon.jpg" alt=""></a>
-                                            </div>
-                                            <div class="social-box col-md-2">
-                                                <a href="#" class="social-box-links"><img src="./images/linkedin-icon-1.jpg" alt=""></a>
-                                            </div>
-                                            <div class="social-box col-md-2">
-                                                <a href="#" class="social-box-links"><img src="./images/reddit-icon.png" alt=""></a>
-                                            </div>
-                                            <div class="col-md-1"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- social section -->
-                                <!-- download section -->
-                                <div class="step2 download-section tab-show-section">
-                                    <div class="download-section-inner">
-                                        <div class="col-md-6">
-                                            <div class="col-md-7 download-links">
-                                                <a href="#" class="dow-download-link"><span><i class="fa fa-download" aria-hidden="true"></i></span>Download</a>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="col-md-7 download-share-links">
-                                                <a href="#" class="dow-slide-here-link"><span><i class="fas fa-sliders-h"></i></span>Slide Share</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- download section -->
-                                <!-- count me in section -->
-                                <div class="step2 count-me-section tab-show-section">
-                                    <div class="count-me-inner">
-                                        <div class="count-me-inner-title">
-                                            <h3>GET NOTIFICATIONS FOR NEW EVENTS AND EPISODES</h3>
-                                        </div>
-                                        <div class="form">
-                                            <div class="count-me-form">
-                                                <div class="col-md-6">
-                                                    <input type="email" name="count-me-email" id="count-mail" placeholder="Your Email">
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="count-me-submit">
-                                                        <button class="count-me-submit-btn"><span><i class="fa fa-bell" aria-hidden="true"></i></span> Keep Me In The Loop!</button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- count me in section -->
+                            <div class="heading-bg">
+                                <h3 class="heading-whitetxt-abt ">I Specialize In:</h3>
                             </div>
                             <!--  -->
-                            <div class="carousel-item">
-                                <div class="step-8 first-row row">
-                                    <div class="first-row-head col-md-12">
-                                        <div class="row first-box-row-head">
-                                            <div class="first-box-row-head-left col-md-10">
-                                                <div class="first-box-title">
-                                                    <h3>The 4 World Views</h3>
-                                                </div>
-                                                <div class="first-box-desc">
-                                                    <p>Your World View Determines EVERYTHING You Say And Do!</p>
-                                                </div>
-                                            </div>
-                                            <div class="first-box-row-head-left col-md-2">
-                                                <div class="row">
-                                                    <div class="col-md-6 chev-prev">
-                                                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                                                            <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fas fa-chevron-left"></i></span>
-                                                            <span class="sr-only">Previous</span>
-                                                        </a>
-                                                    </div>
-                                                    <div class="col-md-6 chev-next">
-                                                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                                                            <span class="carousel-control-next-icon" aria-hidden="true"><i class="fas fa-chevron-right"></i></span>
-                                                            <span class="sr-only">Next</span>
-                                                        </a>
-                                                    </div>
-
-                                                    <div class="first-box-page-no">
-                                                        <h3>Episode 004</h3>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
+                            <div class="bg-grey-abt">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h3 class="subheading-sect-txt"><img src="./images/oneimg-scalednew.jpg"></h3>
+                                        <p></p>
                                     </div>
-                                    <div class="first-row-vid col-md-6">
-                                        <iframe id="step2" class="step2frame videoo" src="https://player.vimeo.com/video/445786783" width="100%" height="312" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
-                                    </div>
-                                    <div class="first-row-tabs col-md-6">
-                                        <div class="tabs-button row">
-                                            <div class="col-md-6">
-                                                <div class="tabs-read-btn">
-                                                    <a href="#" class="tab-read-link btn-black active"><span><i class="fa fa-book" aria-hidden="true"></i></span> Read</a>
-                                                </div>
-                                                <div class="tabs-share-btn">
-                                                    <a href="#" class="tab-share-link btn-black"><span><i class="fa fa-share-alt " aria-hidden="true"></i></span> Share</a>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="tabs-listen-btn ">
-                                                    <a href="#" class="tab-listen-link btn-black"><span><i class="fa fa-podcast" aria-hidden="true"></i></span> Listen</a>
-                                                </div>
-                                                <div class="tabs-downloads-btn">
-                                                    <a href="#" class="tabs-down-link btn-black"><span><i class="fa fa-download" aria-hidden="true"></i></span> Downloads</a>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="tabs-count-btn">
-                                                    <a href="#" class="tabs-count-link btn-black"><span><i class="fa fa-rss" aria-hidden="true"></i></span> Count Me In</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <p></p>
                                 </div>
-                                <!-- read section -->
-                                <div class="step2 read-section tab-show-section active">
-                                    <div class="step-2-middle-title step5">
-                                        <h2>Your Heading Text</h2>
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <p class="sectxt-small-data"><b>The ONLY thing in life you have to do consciously is…</b> Make Decisions.</p>
+                                        <p class="sectxt-small-data"><b>The ONLY thing that keeps us from all we are meant to be, do, and have is… </b>an inability to Make Better Decisions Faster.</p>
+                                        <p></p>
                                     </div>
-                                    <div class="step-8 firstrow-pop-desc">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
-                                            it to make a type specimen book.</p>
+                                    <div class="col-md-4"><img class="img-left-eighty" src="./images/specialize-1.png"></div>
+                                    <div class="col-md-12">
+                                        <p class="line-divider">
+                                        </p>
                                     </div>
+                                    <p></p>
                                 </div>
-                                <!-- read section -->
-                                <!-- audio section -->
-                                <div class="step2 audio-section tab-show-section">
-                                    <div class="audio-content col-md-12">
-                                        <audio src="./images/audio.mp3" controls class="audio-content-data"></audio>
-
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h3 class="subheading-sect-txt"><img src="./images/twoimg-scalednew.jpg"></h3>
+                                        <p></p>
                                     </div>
-                                    <div class="audio-download col-md-3">
-                                        <a href="#" class="audio-download-link">Download</a>
-                                    </div>
+                                    <p></p>
                                 </div>
-                                <!-- audio section -->
-                                <!-- social section -->
-                                <div class="step2 social-section tab-show-section">
-                                    <div class="social-section-main">
-                                        <div class="social-section-title">
-                                            <h2>Social Share :</h2>
-                                        </div>
-                                        <div class="social-section-boxes row">
-                                            <div class="col-md-1"></div>
-                                            <div class="social-box col-md-2">
-                                                <a href="#" class="social-box-links"><img src="./images/eamil-icon-1.jpg" alt=""></a>
-                                            </div>
-                                            <div class="social-box col-md-2">
-                                                <a href="#" class="social-box-links"><img src="./images/facebook-icon-1.jpg" alt=""></a>
-                                            </div>
-                                            <div class="social-box col-md-2">
-                                                <a href="#" class="social-box-links"><img src="./images/twitter-icon.jpg" alt=""></a>
-                                            </div>
-                                            <div class="social-box col-md-2">
-                                                <a href="#" class="social-box-links"><img src="./images/linkedin-icon-1.jpg" alt=""></a>
-                                            </div>
-                                            <div class="social-box col-md-2">
-                                                <a href="#" class="social-box-links"><img src="./images/reddit-icon.png" alt=""></a>
-                                            </div>
-                                            <div class="col-md-1"></div>
-                                        </div>
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <p class="sectxt-small-data" style="margin-bottom: 0px;"><span class="text-starting-abt">MESSAGE</span> EVERYTHING I do is an expression of this one belief…</p>
+                                        <p class="sectxt-small-data" style="margin-bottom: 0px;">You Were Born To Convey A Life-Transforming Message.</p>
+                                        <p id="pc" class="sectxt-small-data">So I champion the idea of being intentional about the congruence of the messaging that your personal and professional life conveys.</p>
+                                        <p class="sectxt-small-data"><span class="text-starting-abt">PRODUCTION</span> I love helping you discover, develop and deliver your clear, captivating, and compelling <b>L</b>ife <b>T</b>ransforming <b>M</b>essage<b>(LTM)</b>, so you can bring
+                                            those you’re meant to serve the transformation they’ve been earnestly waiting for, even groaning for. They want life abundantly. And…</p>
+                                        <p class="sectxt-small-data"><b>IF</b> you’ve got it to any measure,</p>
+                                        <p class="sectxt-small-data"><b>THEN</b> it’s your moral obligation to bring it!</p>
+                                        <p class="sectxt-small-data">Let’s not leave those you’re meant to serve and serve with waiting any longer.</p>
+                                        <p></p>
                                     </div>
+                                    <div class="col-md-4"><img class="img-left-eighty img-top-marr" src="./images/CJ-Face-with-Born-LTM-1-scaled.jpg"></div>
+                                    <p></p>
                                 </div>
-                                <!-- social section -->
-                                <!-- download section -->
-                                <div class="step2 download-section tab-show-section">
-                                    <div class="download-section-inner">
-                                        <div class="col-md-6">
-                                            <div class="col-md-7 download-links">
-                                                <a href="#" class="dow-download-link"><span><i class="fa fa-download" aria-hidden="true"></i></span>Download</a>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="col-md-7 download-share-links">
-                                                <a href="#" class="dow-slide-here-link"><span><i class="fas fa-sliders-h"></i></span>Slide Share</a>
-                                            </div>
-                                        </div>
+                                <div class="row">
+                                    <div class="col-md-12"></div>
+                                    <p></p>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h3 class="subheading-sect-txt"><img src="./images/grey-ccnew-new.jpg"></h3>
+                                        <p></p>
                                     </div>
+                                    <p></p>
                                 </div>
-                                <!-- download section -->
-                                <!-- count me in section -->
-                                <div class="step2 count-me-section tab-show-section">
-                                    <div class="count-me-inner">
-                                        <div class="count-me-inner-title">
-                                            <h3>GET NOTIFICATIONS FOR NEW EVENTS AND EPISODES</h3>
-                                        </div>
-                                        <div class="form">
-                                            <div class="count-me-form">
-                                                <div class="col-md-6">
-                                                    <input type="email" name="count-me-email" id="count-mail" placeholder="Your Email">
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="count-me-submit">
-                                                        <button class="count-me-submit-btn"><span><i class="fa fa-bell" aria-hidden="true"></i></span> Keep Me In The Loop!</button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <p class="sectxt-small-data"><span class="linered"><b>CULTURE IS…</b> the natural outgrowth of a societies worship. </span></p>
+                                        <p class="sectxt-small-data"><span class="linered">The word <b>culture</b> speaks of what has been cultivated (developed, nurtured, promoted, and advanced) in society. The root word of culture is <b>cult</b> – which speaks of worship. “So <b>culture is the natural outgrowth of what a society worships.</b> It is the out growth of a nations cult.” (Alan DiDio)</span></p>
+                                        <p class="sectxt-small-data">What we worship (or hold to be the essence of our life) determines our culture.</p>
+                                        <p class="sectxt-small-data">“What happens when a cult worships itself… the worship of man… at the expense of others. Then we stop asking what we can do for our country and we start asking what our country can do for us, at the expense of others.
+                                            ” (Alan Didio) The worship of self tends towards tyranny, communism, socialism, and secular humanism. The worship of God tends to liberty and freedom. “Now… where the Spirit of the Lord is, there is liberty.”
+                                            (2 Cor. 3:17b)</p>
+                                        <p></p>
                                     </div>
+                                    <div class="col-md-4"><img class="" src="./images/face_v1.jpg"></div>
+                                    <p></p>
                                 </div>
-                                <!-- count me in section -->
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p class="sectxt-small-data">Whatever we behold is what we become like.</p>
+                                        <p class="sectxt-small-data">So my intention is to help you express images of impeccability, immortality, eternality in your personal and professional life, so when people experience your brands they experience a transformation in the beholding
+                                            of your glorious solutions to their problems… the ones you solve with and for them. Why? Because culture is your enduring advantage. Because as venture capitalist Peter Thiel says “Everything you do can be knocked-off,
+                                            the only long-term competitive advantage is your company culture.”</p>
+                                        <p></p>
+                                    </div>
+                                    <p></p>
+                                </div>
+                                <div class="row" style="justify-content: center; padding: 0 15px;">
+                                    <div class="col-md-offset-1 col-md-10 col-md-offset-1">
+                                        <img class="custm-quote-img" src="./images/ver.png">
+                                        <p></p>
+                                        <h4 class="quote-text-box mobmarbox">Everything you do can be knocked-off, the only long-term competitive advantage is your company culture. – Peter Thiel</h4>
+                                        <p id="mob" class="sectxt-small-data mobmarbox"><i>So I _champion_ the idea of _being intentional about_ the congruence of _the messaging_ that _your personal and professional life conveys_.</i></p>
+                                        <p></p>
+                                    </div>
+                                    <p> <img class="img-full-width" style="width: 82%;" src="./images/culture-eat-strtegy-new.png"></p>
+                                    <p style="padding-bottom: 7px;" class="quote-name">– Peter Drucker</p>
+                                    <p></p>
+                                </div>
                             </div>
                             <!--  -->
-                            <div class="carousel-item">
-                                <div class="step-8 first-row row">
-                                    <div class="first-row-head col-md-12">
-                                        <div class="row first-box-row-head">
-                                            <div class="first-box-row-head-left col-md-10">
-                                                <div class="first-box-title">
-                                                    <h3>What Is Truth?</h3>
-                                                </div>
-                                                <div class="first-box-desc">
-                                                    <p>Discover truth... and its three types</p>
-                                                </div>
-                                            </div>
-                                            <div class="first-box-row-head-left col-md-2">
-                                                <div class="row">
-                                                    <div class="col-md-6 chev-prev">
-                                                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                                                            <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fas fa-chevron-left"></i></span>
-                                                            <span class="sr-only">Previous</span>
-                                                        </a>
-                                                    </div>
-                                                    <div class="col-md-6 chev-next">
-                                                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                                                            <span class="carousel-control-next-icon" aria-hidden="true"><i class="fas fa-chevron-right"></i></span>
-                                                            <span class="sr-only">Next</span>
-                                                        </a>
-                                                    </div>
-
-                                                    <div class="first-box-page-no">
-                                                        <h3>Episode 0015</h3>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="first-row-vid col-md-6">
-                                        <iframe id="step2" class="step2frame videoo" src="https://player.vimeo.com/video/445786923" width="100%" height="312" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
-                                    </div>
-                                    <div class="first-row-tabs col-md-6">
-                                        <div class="tabs-button row">
-                                            <div class="col-md-6">
-                                                <div class="tabs-read-btn">
-                                                    <a href="#" class="tab-read-link btn-black active"><span><i class="fa fa-book" aria-hidden="true"></i></span> Read</a>
-                                                </div>
-                                                <div class="tabs-share-btn">
-                                                    <a href="#" class="tab-share-link btn-black"><span><i class="fa fa-share-alt " aria-hidden="true"></i></span> Share</a>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="tabs-listen-btn ">
-                                                    <a href="#" class="tab-listen-link btn-black"><span><i class="fa fa-podcast" aria-hidden="true"></i></span> Listen</a>
-                                                </div>
-                                                <div class="tabs-downloads-btn">
-                                                    <a href="#" class="tabs-down-link btn-black"><span><i class="fa fa-download" aria-hidden="true"></i></span> Downloads</a>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="tabs-count-btn">
-                                                    <a href="#" class="tabs-count-link btn-black"><span><i class="fa fa-rss" aria-hidden="true"></i></span> Count Me In</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- read section -->
-                                <div class="step2 read-section tab-show-section active">
-                                    <div class="step-2-middle-title step5">
-                                        <h2>Your Heading Text</h2>
-                                    </div>
-                                    <div class="step-8 firstrow-pop-desc">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
-                                            it to make a type specimen book.</p>
-                                    </div>
-                                </div>
-                                <!-- read section -->
-                                <!-- audio section -->
-                                <div class="step2 audio-section tab-show-section">
-                                    <div class="audio-content col-md-12">
-                                        <audio src="./images/audio.mp3" controls class="audio-content-data"></audio>
-
-                                    </div>
-                                    <div class="audio-download col-md-3">
-                                        <a href="#" class="audio-download-link">Download</a>
-                                    </div>
-                                </div>
-                                <!-- audio section -->
-                                <!-- social section -->
-                                <div class="step2 social-section tab-show-section">
-                                    <div class="social-section-main">
-                                        <div class="social-section-title">
-                                            <h2>Social Share :</h2>
-                                        </div>
-                                        <div class="social-section-boxes row">
-                                            <div class="col-md-1"></div>
-                                            <div class="social-box col-md-2">
-                                                <a href="#" class="social-box-links"><img src="./images/eamil-icon-1.jpg" alt=""></a>
-                                            </div>
-                                            <div class="social-box col-md-2">
-                                                <a href="#" class="social-box-links"><img src="./images/facebook-icon-1.jpg" alt=""></a>
-                                            </div>
-                                            <div class="social-box col-md-2">
-                                                <a href="#" class="social-box-links"><img src="./images/twitter-icon.jpg" alt=""></a>
-                                            </div>
-                                            <div class="social-box col-md-2">
-                                                <a href="#" class="social-box-links"><img src="./images/linkedin-icon-1.jpg" alt=""></a>
-                                            </div>
-                                            <div class="social-box col-md-2">
-                                                <a href="#" class="social-box-links"><img src="./images/reddit-icon.png" alt=""></a>
-                                            </div>
-                                            <div class="col-md-1"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- social section -->
-                                <!-- download section -->
-                                <div class="step2 download-section tab-show-section">
-                                    <div class="download-section-inner">
-                                        <div class="col-md-6">
-                                            <div class="col-md-7 download-links">
-                                                <a href="#" class="dow-download-link"><span><i class="fa fa-download" aria-hidden="true"></i></span>Download</a>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="col-md-7 download-share-links">
-                                                <a href="#" class="dow-slide-here-link"><span><i class="fas fa-sliders-h"></i></span>Slide Share</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- download section -->
-                                <!-- count me in section -->
-                                <div class="step2 count-me-section tab-show-section">
-                                    <div class="count-me-inner">
-                                        <div class="count-me-inner-title">
-                                            <h3>GET NOTIFICATIONS FOR NEW EVENTS AND EPISODES</h3>
-                                        </div>
-                                        <div class="form">
-                                            <div class="count-me-form">
-                                                <div class="col-md-6">
-                                                    <input type="email" name="count-me-email" id="count-mail" placeholder="Your Email">
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="count-me-submit">
-                                                        <button class="count-me-submit-btn"><span><i class="fa fa-bell" aria-hidden="true"></i></span> Keep Me In The Loop!</button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- count me in section -->
+                            <div class="row heading-bg">
+                                <h3 class="heading-whitetxt-abt ">Is This Dude Worth My Time And Attention?</h3>
                             </div>
                             <!--  -->
-                            <div class="carousel-item">
-                                <div class="step-8 first-row row">
-                                    <div class="first-row-head col-md-12">
-                                        <div class="row first-box-row-head">
-                                            <div class="first-box-row-head-left col-md-10">
-                                                <div class="first-box-title">
-                                                    <h3>The Power of Visioneering</h3>
-                                                </div>
-                                                <div class="first-box-desc">
-                                                    <p>Knowing What Is. Conceiving Of What Could Be. Focusing In On What Should Be, And Committing To What MUST Be.</p>
-                                                </div>
-                                            </div>
-                                            <div class="first-box-row-head-left col-md-2">
-                                                <div class="row">
-                                                    <div class="col-md-6 chev-prev">
-                                                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                                                            <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fas fa-chevron-left"></i></span>
-                                                            <span class="sr-only">Previous</span>
-                                                        </a>
-                                                    </div>
-                                                    <div class="col-md-6 chev-next">
-                                                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                                                            <span class="carousel-control-next-icon" aria-hidden="true"><i class="fas fa-chevron-right"></i></span>
-                                                            <span class="sr-only">Next</span>
-                                                        </a>
-                                                    </div>
-
-                                                    <div class="first-box-page-no">
-                                                        <h3>Episode 006</h3>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="first-row-vid col-md-6">
-                                        <iframe id="step2" class="step2frame videoo" src="https://player.vimeo.com/video/445787112" width="100%" height="312" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
-                                    </div>
-                                    <div class="first-row-tabs col-md-6">
-                                        <div class="tabs-button row">
-                                            <div class="col-md-6">
-                                                <div class="tabs-read-btn">
-                                                    <a href="#" class="tab-read-link btn-black active"><span><i class="fa fa-book" aria-hidden="true"></i></span> Read</a>
-                                                </div>
-                                                <div class="tabs-share-btn">
-                                                    <a href="#" class="tab-share-link btn-black"><span><i class="fa fa-share-alt " aria-hidden="true"></i></span> Share</a>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="tabs-listen-btn ">
-                                                    <a href="#" class="tab-listen-link btn-black"><span><i class="fa fa-podcast" aria-hidden="true"></i></span> Listen</a>
-                                                </div>
-                                                <div class="tabs-downloads-btn">
-                                                    <a href="#" class="tabs-down-link btn-black"><span><i class="fa fa-download" aria-hidden="true"></i></span> Downloads</a>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="tabs-count-btn">
-                                                    <a href="#" class="tabs-count-link btn-black"><span><i class="fa fa-rss" aria-hidden="true"></i></span> Count Me In</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                            <div class="row bg-white-abt">
+                                <div class="col-md-12 no-pad-mob">
+                                    <h4 class="subheading-bold-text">For many, the answer may very well be… NO</h4>
+                                    <p class="cent-txt-normal sectxt-small-data" style="text-align: left;">So what do you want to know about me?</p>
+                                    <p class="cent-txt-normal sectxt-small-data" style="text-align: left;">Got 3 amazing kids… I enjoy windsurfing, meaningful conversation, and learning… oh and I’m a health enthusiast.</p>
+                                    <p class="cent-txt-normal sectxt-small-data" style="text-align: left;">But… I’m guessing you’re not really looking for stuff like that. Rather I imagine you’re wondering…</p>
+                                    <h4 class="subheading-bold-text">Are we a good fit?</h4>
+                                    <h4 class="subheading-bold-text">Here are 3 reasons why we might NOT be:</h4>
+                                    <p></p>
                                 </div>
-                                <!-- read section -->
-                                <div class="step2 read-section tab-show-section active">
-                                    <div class="step-2-middle-title step5">
-                                        <h2>Your Heading Text</h2>
-                                    </div>
-                                    <div class="step-8 firstrow-pop-desc">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
-                                            it to make a type specimen book.</p>
-                                    </div>
-                                </div>
-                                <!-- read section -->
-                                <!-- audio section -->
-                                <div class="step2 audio-section tab-show-section">
-                                    <div class="audio-content col-md-12">
-                                        <audio src="./images/audio.mp3" controls class="audio-content-data"></audio>
-
-                                    </div>
-                                    <div class="audio-download col-md-3">
-                                        <a href="#" class="audio-download-link">Download</a>
-                                    </div>
-                                </div>
-                                <!-- audio section -->
-                                <!-- social section -->
-                                <div class="step2 social-section tab-show-section">
-                                    <div class="social-section-main">
-                                        <div class="social-section-title">
-                                            <h2>Social Share :</h2>
-                                        </div>
-                                        <div class="social-section-boxes row">
-                                            <div class="col-md-1"></div>
-                                            <div class="social-box col-md-2">
-                                                <a href="#" class="social-box-links"><img src="./images/eamil-icon-1.jpg" alt=""></a>
-                                            </div>
-                                            <div class="social-box col-md-2">
-                                                <a href="#" class="social-box-links"><img src="./images/facebook-icon-1.jpg" alt=""></a>
-                                            </div>
-                                            <div class="social-box col-md-2">
-                                                <a href="#" class="social-box-links"><img src="./images/twitter-icon.jpg" alt=""></a>
-                                            </div>
-                                            <div class="social-box col-md-2">
-                                                <a href="#" class="social-box-links"><img src="./images/linkedin-icon-1.jpg" alt=""></a>
-                                            </div>
-                                            <div class="social-box col-md-2">
-                                                <a href="#" class="social-box-links"><img src="./images/reddit-icon.png" alt=""></a>
-                                            </div>
-                                            <div class="col-md-1"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- social section -->
-                                <!-- download section -->
-                                <div class="step2 download-section tab-show-section">
-                                    <div class="download-section-inner">
-                                        <div class="col-md-6">
-                                            <div class="col-md-7 download-links">
-                                                <a href="#" class="dow-download-link"><span><i class="fa fa-download" aria-hidden="true"></i></span>Download</a>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="col-md-7 download-share-links">
-                                                <a href="#" class="dow-slide-here-link"><span><i class="fas fa-sliders-h"></i></span>Slide Share</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- download section -->
-                                <!-- count me in section -->
-                                <div class="step2 count-me-section tab-show-section">
-                                    <div class="count-me-inner">
-                                        <div class="count-me-inner-title">
-                                            <h3>GET NOTIFICATIONS FOR NEW EVENTS AND EPISODES</h3>
-                                        </div>
-                                        <div class="form">
-                                            <div class="count-me-form">
-                                                <div class="col-md-6">
-                                                    <input type="email" name="count-me-email" id="count-mail" placeholder="Your Email">
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="count-me-submit">
-                                                        <button class="count-me-submit-btn"><span><i class="fa fa-bell" aria-hidden="true"></i></span> Keep Me In The Loop!</button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- count me in section -->
                             </div>
                             <!--  -->
-                            <div class="carousel-item">
-                                <div class="step-8 first-row row">
-                                    <div class="first-row-head col-md-12">
-                                        <div class="row first-box-row-head">
-                                            <div class="first-box-row-head-left col-md-10">
-                                                <div class="first-box-title">
-                                                    <h3>The Keep or Go Show</h3>
-                                                </div>
-                                                <div class="first-box-desc">
-                                                    <p>Practical Minimialsim</p>
-                                                </div>
-                                            </div>
-                                            <div class="first-box-row-head-left col-md-2">
-                                                <div class="row">
-                                                    <div class="col-md-6 chev-prev">
-                                                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                                                            <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fas fa-chevron-left"></i></span>
-                                                            <span class="sr-only">Previous</span>
-                                                        </a>
-                                                    </div>
-                                                    <div class="col-md-6 chev-next">
-                                                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                                                            <span class="carousel-control-next-icon" aria-hidden="true"><i class="fas fa-chevron-right"></i></span>
-                                                            <span class="sr-only">Next</span>
-                                                        </a>
-                                                    </div>
+                            <div class="row heading-bg-grey">
 
-                                                    <div class="first-box-page-no">
-                                                        <h3>Episode 007</h3>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="first-row-vid col-md-6">
-                                        <iframe id="step2" class="step2frame videoo" src="https://player.vimeo.com/video/445787243" width="100%" height="312" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
-                                    </div>
-                                    <div class="first-row-tabs col-md-6">
-                                        <div class="tabs-button row">
-                                            <div class="col-md-6">
-                                                <div class="tabs-read-btn">
-                                                    <a href="#" class="tab-read-link btn-black active"><span><i class="fa fa-book" aria-hidden="true"></i></span> Read</a>
-                                                </div>
-                                                <div class="tabs-share-btn">
-                                                    <a href="#" class="tab-share-link btn-black"><span><i class="fa fa-share-alt " aria-hidden="true"></i></span> Share</a>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="tabs-listen-btn ">
-                                                    <a href="#" class="tab-listen-link btn-black"><span><i class="fa fa-podcast" aria-hidden="true"></i></span> Listen</a>
-                                                </div>
-                                                <div class="tabs-downloads-btn">
-                                                    <a href="#" class="tabs-down-link btn-black"><span><i class="fa fa-download" aria-hidden="true"></i></span> Downloads</a>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="tabs-count-btn">
-                                                    <a href="#" class="tabs-count-link btn-black"><span><i class="fa fa-rss" aria-hidden="true"></i></span> Count Me In</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- read section -->
-                                <div class="step2 read-section tab-show-section active">
-                                    <div class="step-2-middle-title step5">
-                                        <h2>Your Heading Text</h2>
-                                    </div>
-                                    <div class="step-8 firstrow-pop-desc">
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
-                                            it to make a type specimen book.</p>
-                                    </div>
-                                </div>
-                                <!-- read section -->
-                                <!-- audio section -->
-                                <div class="step2 audio-section tab-show-section">
-                                    <div class="audio-content col-md-12">
-                                        <audio src="./images/audio.mp3" controls class="audio-content-data"></audio>
-
-                                    </div>
-                                    <div class="audio-download col-md-3">
-                                        <a href="#" class="audio-download-link">Download</a>
-                                    </div>
-                                </div>
-                                <!-- audio section -->
-                                <!-- social section -->
-                                <div class="step2 social-section tab-show-section">
-                                    <div class="social-section-main">
-                                        <div class="social-section-title">
-                                            <h2>Social Share :</h2>
-                                        </div>
-                                        <div class="social-section-boxes row">
-                                            <div class="col-md-1"></div>
-                                            <div class="social-box col-md-2">
-                                                <a href="#" class="social-box-links"><img src="./images/eamil-icon-1.jpg" alt=""></a>
-                                            </div>
-                                            <div class="social-box col-md-2">
-                                                <a href="#" class="social-box-links"><img src="./images/facebook-icon-1.jpg" alt=""></a>
-                                            </div>
-                                            <div class="social-box col-md-2">
-                                                <a href="#" class="social-box-links"><img src="./images/twitter-icon.jpg" alt=""></a>
-                                            </div>
-                                            <div class="social-box col-md-2">
-                                                <a href="#" class="social-box-links"><img src="./images/linkedin-icon-1.jpg" alt=""></a>
-                                            </div>
-                                            <div class="social-box col-md-2">
-                                                <a href="#" class="social-box-links"><img src="./images/reddit-icon.png" alt=""></a>
-                                            </div>
-                                            <div class="col-md-1"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- social section -->
-                                <!-- download section -->
-                                <div class="step2 download-section tab-show-section">
-                                    <div class="download-section-inner">
-                                        <div class="col-md-6">
-                                            <div class="col-md-7 download-links">
-                                                <a href="#" class="dow-download-link"><span><i class="fa fa-download" aria-hidden="true"></i></span>Download</a>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="col-md-7 download-share-links">
-                                                <a href="#" class="dow-slide-here-link"><span><i class="fas fa-sliders-h"></i></span>Slide Share</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- download section -->
-                                <!-- count me in section -->
-                                <div class="step2 count-me-section tab-show-section">
-                                    <div class="count-me-inner">
-                                        <div class="count-me-inner-title">
-                                            <h3>GET NOTIFICATIONS FOR NEW EVENTS AND EPISODES</h3>
-                                        </div>
-                                        <div class="form">
-                                            <div class="count-me-form">
-                                                <div class="col-md-6">
-                                                    <input type="email" name="count-me-email" id="count-mail" placeholder="Your Email">
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="count-me-submit">
-                                                        <button class="count-me-submit-btn"><span><i class="fa fa-bell" aria-hidden="true"></i></span> Keep Me In The Loop!</button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- count me in section -->
+                                <p></p>
+                                <h3 class="heading-bg-grey-text "><span class="number-round">1</span> I’m Fanatical about Freedom.</h3>
                             </div>
                             <!--  -->
+                            <div class="bg-white-abt">
+                                <div class="row">
+                                    <div class="col-md-12 no-pad-mob">
+                                        <p class="text-center sectxt-small-data"><b>FREEDOM is… </b>the ability to pursue, that which is good, without impairing anyone’s ability to do the same.</p>
+                                        <h4 class="subheading-bold-text" style="text-transform: uppercase;">There are 5 Freedoms:</h4>
+                                        <p></p>
+                                    </div>
+                                    <p></p>
+                                </div>
+                                <div class="row no-pad-mob">
+                                    <div class="col-md-4">
+                                        <h4 class="five-fredoom-step-title" style="text-transform: uppercase;">1. SPIRITUAL FREEDOM</h4>
+                                        <p class="five-step-text sectxt-small-data"><span class="redlineunder">The ability</span> to choose your thoughts, attitudes, and responses. This can never be forcefully taken from you.</p>
+                                        <p></p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <h4 class="five-fredoom-step-title" style="text-transform: uppercase;">2. PHYSICAL FREEDOM</h4>
+                                        <p class="five-step-text sectxt-small-data"><span class="redlineunder">The ability</span> to have your body to get you through adversity and to the: fulfillment of your purpose, the bringing to pass of your vision, and the accomplishment of your mission.</p>
+                                        <p></p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <h4 class="five-fredoom-step-title" style="text-transform: uppercase;">3. FINANCIAL FREEDOM</h4>
+                                        <p class="five-step-text sectxt-small-data"><span class="redlineunder">The ability</span> to get your passive income to far exceed your desired lifestyle and all the while you’re far from the fear of losing it all because you’re confident if need be… you
+                                            could make it all back again.</p>
+                                        <p></p>
+                                    </div>
+                                    <p></p>
+                                </div>
+                                <div class="row no-pad-mob" style="padding: 1% 0% 0% 0%;">
+                                    <div class="col-md-2"></div>
+                                    <div class="col-md-4">
+                                        <h4 class="five-fredoom-step-title" style="text-transform: uppercase;">4. TIME FREEDOM</h4>
+                                        <p class="five-step-text sectxt-small-data"><span class="redlineunder">The ability</span> to set your own schedule. Imagine not having to wake up to an alarm clock if you don’t want to.</p>
+                                        <p></p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <h4 class="five-fredoom-step-title" style="text-transform: uppercase;">5. MOBILITY FREEDOM</h4>
+                                        <p class="five-step-text sectxt-small-data"><span class="redlineunder">The ability</span> to go where you want. Imagine being able to go into all the world, at will.</p>
+                                        <p></p>
+                                    </div>
+                                    <div class="col-md-2"></div>
+                                    <p></p>
+                                </div>
+                                <div class="row no-pad-mob">
+                                    <div class="col-md-12">
+                                        <p class="line-divider">
+                                        </p>
+                                    </div>
+                                    <p></p>
+                                </div>
+                                <div class="row no-pad-mob">
+                                    <div class="col-md-12">
+                                        <h2 class="five-fredoom-step-title" style="text-transform: uppercase;">The 5 Freedoms</h2>
+                                        <p> <img class="img-half-width" src="./images/5-Freedom-Graphics-new.jpg">
+                                        </p>
+                                    </div>
+                                    <p></p>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 no-pad-mob">
+                                        <h3 class="heading-bg-grey-text " style="text-transform: uppercase;">There are ONLY 2 ways to lose your freedom.</h3>
+                                        <p></p>
+                                    </div>
+                                    <p></p>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 box-same-bor no-pad-mob boxnopad">
+                                        <div class="col-md-6 ">
+                                            <div class="halfbox-border">
+                                                <h4 class="five-fredoom-step-title" style="text-transform: uppercase;">1. FORCE.</h4>
+                                                <p class="five-step-text sectxt-small-data">It can be taken from you by an overpowering force. Spiritual Freedom is the only freedom that can never be taken from you by force.</p>
+                                                <p></p>
+                                            </div>
+                                            <p></p>
+                                        </div>
+                                        <div class="col-md-6 ">
+                                            <div class="halfbox-border">
+                                                <h4 class="five-fredoom-step-title" style="text-transform: uppercase;">2. TRADE.</h4>
+                                                <p class="five-step-text sectxt-small-data">It can be traded for something you deem to be of greater value. For example, a tyrannical trick is to get you to trade your freedoms for a “promise” of security and comfort.</p>
+                                                <p></p>
+                                            </div>
+                                            <p></p>
+                                        </div>
+                                        <p></p>
+                                    </div>
+                                    <p></p>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 no-pad-mob">
+                                        <h3 class="heading-bg-grey-text "><b>THE FIRST AND FOREMOST STEP TO KEEPING YOUR FREEDOM<br>
+                                            IS TO WALK THE TRUTH. </b></h3>
+                                        <p> <img class="custm-quote-img" src="./images/ver.png"></p>
+                                        <h4 class="quote-text-box">And ye shall know the truth, and the truth shall make you free. – John 8:32</h4>
+                                        <p></p>
+                                    </div>
+                                    <p></p>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 box-same-bor no-pad-mob">
+                                        <div class="col-md-6 if-then-bor-left">
+                                            <h4 class="if-then-title" style="text-transform: uppercase;">IF</h4>
+                                            <p class="if-then-txt sectxt-small-data">you don’t want to challenge your erroneous assumptions</p>
+                                            <p></p>
+                                        </div>
+                                        <div class="col-md-6 if-then-bor-right">
+                                            <h4 class="if-then-title" style="text-transform: uppercase;">THEN</h4>
+                                            <p class="if-then-txt sectxt-small-data">you’re NOT going to enjoy what I have to offer.</p>
+                                            <p></p>
+                                        </div>
+                                        <p></p>
+                                    </div>
+                                    <p></p>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 no-pad-mob">
+                                        <p class="cent-txt-normal sectxt-small-data" style="text-align: left;">My training requires you to expand your capacity to think and increase your speed of implementation.</p>
+                                        <p class="cent-txt-normal sectxt-small-data" style="text-align: left;">For some, that’s just too uncomfortable… so… they refuse to go there. If that’s where you’re at currently… I understand and no pressure to join me. I just wanna be upfront about how being involved with me may seem
+                                            like hard work to some.</p>
+                                        <p class="cent-txt-normal sectxt-small-data" style="text-align: left;">Usually, it’s seen as hard work for those that have not yet learned the value of having their essential assumptions challenged.</p>
+                                        <p></p>
+                                    </div>
+                                    <p></p>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 no-pad-mob">
+                                        <div class="col-md-offset-1 col-md-10 col-md-offset-1" style="margin: 0 auto;">
+                                            <img class="custm-quote-img2" src="./images/ver.png">
+                                            <p></p>
+                                            <h4 class="quote-text-box" style="margin-bottom: 4%;">Thinking is the hardest work there is, which is probably the reason why so few engage in it. – Henry Ford</h4>
+                                            <p></p>
+                                        </div>
+                                        <p></p>
+                                    </div>
+                                    <p></p>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 no-pad-mob">
+                                        <p class="if-then-txt sectxt-small-data" style="font-weight: 500; color: #000;"><b>IF</b> You’re up for combining your hard work ethic (which I’m assuming you have) with a much smarter way of doing things…</p>
+                                        <p class="if-then-txt sectxt-small-data" style="font-weight: 500; color: #000; margin-bottom: 0px;"><b>THEN</b> I propose for your consideration, you may very well be… exactly in the right place… at exactly the right time.</p>
+                                        <p></p>
+                                    </div>
+                                    <p></p>
+                                </div>
+                            </div>
+                            <!--  -->
+                            <div class="row heading-bg-grey">
+                                <!--- Row Start -->
+                                <p></p>
+                                <h3 class="heading-bg-grey-text "><span class="number-round">2</span> I’m Divinely Discontent.</h3>
+                            </div>
+                            <!--  -->
+                            <div class="bg-white-abt">
+                                <div class="row">
+                                    <div class="col-md-6 no-pad-mob">
+                                        <p class="sectxt-small-data"><b>Divine Discontent</b> is a deep-seated gnawing at your conscience that there’s way too much of a gap between your potential and your performance.</p>
+                                        <p class="sectxt-small-data">When I close my <b>eyes,</b></p>
+                                        <p class="sectxt-small-data">I often <b>visualize</b></p>
+                                        <p class="sectxt-small-data">…a preferable future. It’s exciting!</p>
+                                        <p class="sectxt-small-data">Yet when I open my <b>eyes</b></p>
+                                        <p class="sectxt-small-data">and <b>realize</b></p>
+                                        <p class="sectxt-small-data">that what I <b>see</b></p>
+                                        <p class="sectxt-small-data">is a very different <b>reality.</b></p>
+                                        <p class="sectxt-small-data">It is then that I find myself in a state of divine discontent.</p>
+                                        <p class="sectxt-small-data">It’s then that I find myself <b>motivated</b></p>
+                                        <p class="sectxt-small-data">to bring about what in my imagination… I have seen <b>created.</b></p>
+                                        <p></p>
+                                    </div>
+                                    <div class="col-md-6 no-pad-mob">
+                                        <img class="img-full-width" src="./images/egal-new.png">
+                                    </div>
+                                    <p></p>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 no-pad-mob">
+                                        <p class="sectxt-small-data">I’ve tasted heaven and it’s ruined me for the ordinary. It’s set me on a track for a consistent innovative, pioneering progress where expectations are never static. A voracious appetite for, “Thy Kingdom come, thy
+                                            will be done, on earth as it is in heaven.” (MT. 6:10) is what consumes me.</p>
+                                        <p></p>
+                                    </div>
+                                    <p></p>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 no-pad-mob">
+                                        <div class="col-md-offset-1 col-md-10 col-md-offset-1" style="margin: 0 auto;">
+                                            <img class="custm-quote-img2" src="./images/ver.png">
+                                            <p></p>
+                                            <h4 class="quote-text-box">It all boils down to the fact that we must never allow ourselves to become satisfied with unattained goals. We must always maintain a kind of divine discontent. – Rev. Dr. Martin Luther King Jr.</h4>
+                                            <p></p>
+                                        </div>
+                                        <div class="col-md-offset-1 col-md-10 col-md-offset-1" style="margin: 0 auto;">
+                                            <img class="custm-quote-img2" src="./images/ver.png">
+                                            <p></p>
+                                            <h4 class="quote-text-box">Blessed are those who hunger and thirst for righteousness, for they shall be filled. – Mat 5:6</h4>
+                                            <p></p>
+                                        </div>
+                                        <p></p>
+                                    </div>
+                                    <p></p>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 box-same-bor no-pad-mob" style="margin-bottom: 1%;">
+                                        <div class="col-md-6 if-then-bor-left">
+                                            <h4 class="if-then-title" style="text-transform: uppercase;">IF</h4>
+                                            <p class="if-then-txt sectxt-small-data">your Teachability Index in regards to personal and professional development is low (i.e. anything less than a 10).</p>
+                                            <p></p>
+                                        </div>
+                                        <div class="col-md-6 if-then-bor-right">
+                                            <h4 class="if-then-title" style="text-transform: uppercase;">THEN</h4>
+                                            <p class="if-then-txt sectxt-small-data">at some point I’ll be experienced by you as the aroma of death.</p>
+                                            <p></p>
+                                        </div>
+                                        <p></p>
+                                    </div>
+                                    <p></p>
+                                </div>
+                            </div>
+                            <!--  -->
+                            <div class="row heading-bg-grey">
+                                <!--- Row Start -->
+                                <p></p>
+                                <h3 class="heading-bg-grey-text "><span class="number-round">3</span> I’m Downright Determined.</h3>
+                            </div>
+                            <!--  -->
+                            <div class="bg-white-abt">
+                                <div class="row">
+                                    <div class="col-md-12 box-same-bor no-pad-mob" style=" margin-top: 1%;">
+                                        <div class="col-md-6 if-then-bor-left">
+                                            <h4 class="if-then-title" style="text-transform: uppercase;">IF</h4>
+                                            <p class="if-then-txt sectxt-small-data">You don’t want to do the hard work of social engagement…</p>
+                                            <p></p>
+                                        </div>
+                                        <div class="col-md-6 if-then-bor-right">
+                                            <h4 class="if-then-title" style="text-transform: uppercase;">THEN</h4>
+                                            <p class="if-then-txt sectxt-small-data">We won’t be a good fit.</p>
+                                            <p></p>
+                                        </div>
+                                        <p></p>
+                                    </div>
+                                    <p></p>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 no-pad-mob">
+                                        <b>Are you:</b>
+                                        <p></p>
+                                        <ul>
+                                            <li>Aspiring to be a world changer?</li>
+                                            <li>Determined to be faithful with what you’ve got and entrusted with more?</li>
+                                            <li>Wanting to love people… no matter what… unconditionally?</li>
+                                            <li>Willing to believe that what you have to offer is needed and wanted?</li>
+                                            <li>Willing to learn about the value and necessity of being intentional about your personal and professional branding.</li>
+                                        </ul>
+                                        <p class="text-center sectxt-small-data-bold" style="    padding-top: 1.58%;">IF not… well… no hard feelings… thanks for sticking with me this far.</p>
+                                        <p class="text-center sectxt-small-data-bold" style="    margin-bottom: -3px;">You Still Here? Great.</p>
+                                        <p></p>
+                                    </div>
+                                    <p></p>
+                                </div>
+                            </div>
+                            <!--  -->
+                            <div class="row heading-bg">
+                                <!--- Row Start -->
+                                <p></p>
+                                <h3 class="heading-whitetxt-abt">Here’s What You Can Expect From Me…</h3>
+                            </div>
+                            <!--  -->
+                            <div class="row bg-white-abt no-pad-mob" style="padding-top: 4%;  padding-bottom: 2%; justify-content: center;">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h3 class="subheading-sect-txt mrtopmob">TRAINING</h3>
+                                        <p class="sectxt-small-data-bold">To Help You Make Better Decisions Faster</p>
+                                        <p class="sectxt-small-data">I’ll share with you my deepest insights, time-tested strategies, cutting-edge tactics, and connections to essential resources that will make you more decisive in both your personal and professional life.</p>
+                                        <p class="sectxt-small-data">Once you experience how I help you Make Better Decisions Faster and why it’s the mother of all skills, you’ll soon thereafter see the increase of your influence, your impact, and possibly even your income… and my
+                                            hope is that you’ll also experience deep satisfaction as you find the work you love. Basically, my objective is to demonstrate how I can help you, by actually helping you.</p>
+                                        <p></p>
+                                    </div>
+                                    <div class="col-md-6"><img src="./images/Training-Graphic-1-scaled.jpg "></div>
+                                    <p></p>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h3 class="subheading-sect-txt mrtopmob">PROJECTS</h3>
+                                        <p class="sectxt-small-data-bold">To Help You Make Better Decisions Faster</p>
+                                        <p class="sectxt-small-data">I’ll invite you to join me on a deeper dive into the world of decisiveness via a variety of different avenues. Along the way, I hope you’ll find one or more projects that get you stoked maybe so much that you’d
+                                            even invest your resources (time, energy, maybe even money).</p>
+                                        <p class="sectxt-small-data">If going on a deeper dive into the depths of decisiveness interests you, then keep moving via the steps towards 9 and on.</p>
+                                        <p></p>
+                                    </div>
+                                    <div class="col-md-6"><img src="./images/Project-Graphic-1-scaled.jpg"></div>
+                                    <p></p>
+                                </div>
+                                <p class="sectxt-small-data-bold text-center" style="    padding-top: 2.5%;">Yet, you may still be wondering…</p>
+                            </div>
+                            <!--  -->
+                            <div class="row heading-bg">
+                                <!--- Row Start -->
+                                <p></p>
+                                <h3 class="heading-whitetxt-abt">How Do I Know Your Stuff Is Any Good ?</h3>
+                            </div>
+                            <!--  -->
+                            <div class="row bg-grey-abt" style="padding-top: 4%; padding-bottom: 3%;">
+                                <div class="col-md-12" style="text-align: left;">
+                                    <b>Well…</b> You could <b>“taste test” my content</b> here on CJWIT.com and/or on any of my social media links.
+                                    <p></p>
+                                    <ul class="pad-t1o">You can see for yourself that my content can help you to:
+                                        <p></p>
+                                        <li class="read-li">Avoid wasting a ton of time, energy, and money… because you’ll learn how to Make Better Decisions… FASTER!</li>
+                                        <li class="read-li">Tap into an organized path of insights that are geared to help you grow vigorously.</li>
+                                        <li class="read-li">Succeed as an Innovative, Spiritually Minded, Entrepreneurial Thought Leader…I’m not going to bombard you with lots of irrelevant stuff.</li>
+                                        <li class="read-li">Master the fundamentals of decisiveness training, so you can drastically…shorten your learning curve.</li>
+                                    </ul>
+                                    <p class="sectxt-small-data" style="text-align: left;">You can <b>take your first steps with me by continuing to go systematically through the steps here on CJWIT.com.</b></p>
+                                    <p></p>
+                                </div>
+                            </div>
+                            <!--  -->
+                            <div class="row heading-bg">
+                                <!--- Row Start -->
+                                <p></p>
+                                <h3 class="heading-whitetxt-abt">Here’s What I Will Help You With, Specifically…</h3>
+                            </div>
+                            <!--  -->
+                            <div class="bg-white-abt">
+                                <div class="row">
+                                    <div class="col-md-12 no-pad-mob">
+                                        <div id="srolltoview" class="typewriterr">
+                                            <p class=" sectxt-small-data-bold text-center">My Main Focus here is to help you Grow both Personally and Professionally, so You Can Increase:</p>
+                                            <p></p>
+                                        </div>
+                                        <p></p>
+                                    </div>
+                                    <p></p>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <img id="my-img11" class="" style="opacity: 1;" src="./images/Your-Innovation-Graphic-04-11-20.jpg">
+                                    </div>
+                                    <p></p>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <img id="my-img22" style="opacity: 1;" src="./images/1.1.jpg">
+                                    </div>
+                                    <p></p>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <img id="my-img33" class="impact-img" style="opacity: 1;" src="./images/your-impect.png">
+                                    </div>
+                                    <p></p>
+                                </div>
+                            </div>
+                            <!--  -->
+                            <div class="row heading-bg">
+                                <!--- Row Start -->
+                                <p></p>
+                                <h3 class="heading-whitetxt-abt">IF You’re Committed To…</h3>
+                            </div>
+                            <!--  -->
+                            <div class="row bg-white-abt" style="justify-content: center;">
+                                <div class="col-md-12 box-same-bor no-pad-mob" style="background: #FFF;     margin-top: 1.3%;">
+                                    <div class="col-md-6 if-then-bor-left">
+                                        <h4 class="if-then-title" style="text-transform: uppercase;">IF</h4>
+                                        <p class="if-then-txt sectxt-small-data">You’re Committed to…</p>
+                                        <p class="if-then-txt sectxt-small-data">Amplifying Your Entrepenurial Edge by continually:</p>
+                                        <p class="if-then-txt sectxt-small-data"><strong>Looking</strong> for unmet needs, wants, and/or expectations,</p>
+                                        <p class="if-then-txt sectxt-small-data"><strong>Rallying</strong> up a team to help you satisfy those needs wants and/or expectations and successfully… </p>
+                                        <p class="if-then-txt sectxt-small-data"><strong>Initiating,</strong> <strong>organizing</strong>, and <strong>managing</strong> an enterprise in a way that <strong>Minimizes</strong> risk and <strong>Maximizes</strong> rewards… ideally… for all involved…</p>
+                                        <p></p>
+                                    </div>
+                                    <div class="col-md-6 if-then-bor-right">
+                                        <h4 class="if-then-title" style="text-transform: uppercase;">THEN</h4>
+                                        <p class="if-then-txt sectxt-small-data">you’re what I’d consider an </p>
+                                        <p class="if-then-txt sectxt-small-data"><strong>Innovative,</strong> </p>
+                                        <p class="if-then-txt sectxt-small-data"><strong>Spiritually-Minded,</strong> </p>
+                                        <p class="if-then-txt sectxt-small-data"><strong>Entrepreneurial Thought Leader.</strong></p>
+                                        <p></p>
+                                    </div>
+                                    <p></p>
+                                </div>
+                                <p class="sectxt-small-data-bold text-center" style=" margin-bottom: -3px;">So HOW do I help?</p>
+                            </div>
+                            <!--  -->
+                            <div class="row heading-bg">
+                                <!--- Row Start -->
+                                <p></p>
+                                <h3 class="heading-whitetxt-abt">I Help You To Travel:</h3>
+                            </div>
+                            <!--  -->
+                            <div class="row bg-white-abt">
+                                <div class="col-md-12">
+                                    <div class="container">
+                                        <div class="slickmg">
+                                            <div>
+                                                <div class="step-8-slick-img">
+                                                    <img src="./images/1A-1.jpg" class="slick-images" alt="">
+                                                </div>
+
+                                            </div>
+                                            <div>
+                                                <div class="step-8-slick-img">
+                                                    <img src="./images/1B-1.jpg" class="slick-images" alt="">
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="step-8-slick-img">
+                                                    <img src="./images/2A-1.jpg" class="slick-images" alt="">
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="step-8-slick-img">
+                                                    <img src="./images/2B-1.jpg" class="slick-images" alt="">
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="step-8-slick-img">
+                                                    <img src="./images/3A-2.jpg" class="slick-images" alt="">
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="step-8-slick-img">
+                                                    <img src="./images/3B-2.jpg" class="slick-images" alt="">
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="step-8-slick-img">
+                                                    <img src="./images/4A-1.jpg" class="slick-images" alt="">
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="step-8-slick-img">
+                                                    <img src="./images/4B-1.jpg" class="slick-images" alt="">
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="step-8-slick-img">
+                                                    <img src="./images/5A-1.jpg" class="slick-images" alt="">
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="step-8-slick-img">
+                                                    <img src="./images/5B-1.jpg" class="slick-images" alt="">
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="step-8-slick-img">
+                                                    <img src="./images/6A-1.jpg" class="slick-images" alt="">
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="step-8-slick-img">
+                                                    <img src="./images/6B-1.jpg" class="slick-images" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--  -->
+                            <div class="row heading-bg">
+                                <!--- Row Start -->
+                                <p></p>
+                                <h3 class="heading-whitetxt-abt">All the while, My Team And I… We Work Diligently… To Help You:</h3>
+                            </div>
+                            <!--  -->
+                            <div class="bg-grey-abt" style="padding-top: 4%; padding-bottom: 3%;">
+                                <div class="row">
+                                    <div class="col-md-12 no-pad-mob">
+                                        <p class="text-center">Discover, Develop and Deliver Your Clear, Captivating and Compelling Life Transforming, Message that Builds Your Brand, Attracts Your Tribe and Funds Your Vision.</p>
+                                        <p class="text-center">The Mechanism we use to accomplish this is what we call…</p>
+                                        <h3 class="text-center subheading-sect-txt">The Message Production Machine</h3>
+                                        <p class="text-center">Which can help you to:</p>
+                                        <p></p>
+                                    </div>
+                                    <p></p>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 no-pad-mob">
+                                        <img class="img-eighty-width" src="./images/Approved-LTM-Graphic-new-1.png">
+                                        <p></p>
+                                        <p class="text-center sectxt-small-data-bold">Of all the messages I studied over the last 27 years I’ve come to conclude that…</p>
+                                        <p></p>
+                                    </div>
+                                    <p></p>
+                                </div>
+                            </div>
+                            <!--  -->
+                            <div class="row heading-bg">
+                                <!--- Row Start -->
+                                <p></p>
+                                <h3 class="heading-whitetxt-abt">EVERY Great Message Is ONLY 3 Things:</h3>
+                            </div>
+                            <!--  -->
+                            <div class="bg-white-abt">
+                                <div class="row" style=" margin-top: 1.3%;">
+                                    <div class="col-md-4">
+                                        <div class="threebox-border">
+                                            <h4 class="five-fredoom-step-title" style="text-transform: uppercase;">CLEAR</h4>
+                                            <p class="five-step-text sectxt-small-data">In so far as it <strong>Educates</strong> your audience on a particular Premise, so you cause Curiosity.</p>
+                                            <p></p>
+                                        </div>
+                                        <p></p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="threebox-border">
+                                            <h4 class="five-fredoom-step-title" style="text-transform: uppercase;">CAPTIVATING</h4>
+                                            <p class="five-step-text sectxt-small-data">In so far as it <strong>Engages</strong> your audience with a particular Promise so you can Convince.</p>
+                                            <p></p>
+                                        </div>
+                                        <p></p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="threebox-border">
+                                            <h4 class="five-fredoom-step-title" style="text-transform: uppercase;">COMPELLING</h4>
+                                            <p class="five-step-text sectxt-small-data">In so far as it <strong>Encourages</strong> your aduience to follow a particular Path, so as to cause Conversion.</p>
+                                            <p></p>
+                                        </div>
+                                        <p></p>
+                                    </div>
+                                    <p></p>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 no-pad-mob">
+                                        <p class="sectxt-small-data" style="text-align: left;"><b>EVERYone is a brand… </b>know it or not… like it or not… for better or for worse.</p>
+                                        <p class="sectxt-small-data" style="text-align: left;"><b>A Brand</b> is a unique combination of factors that express a reputation in the market place.</p>
+                                        <p class="sectxt-small-data" style="text-align: left;">And of ALL products, services, and/or enterprises that have ever been great… I have noticed they were very clear about conveying ONE primary or big idea… so if we want to be great. I propose it makes sense to emulate
+                                            success… and begin with the end in mind… reverse engineer your big idea and have it expressed in your personal and professional brands so that:</p>
+                                        <p></p>
+                                    </div>
+                                    <p></p>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 " style="display: flex;">
+                                        <div class="col-md-5">
+                                            <ul>
+                                                <li>Your <b>Achievements</b> are at their <b>Apex.</b></li>
+                                                <li>Your <b>Profits</b> are at their <b>Peak.</b></li>
+                                                <li>Your <b>Fulfillment</b> is at its <b>Fullest.</b></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6"><img class="img-eighty-widthh" src="./images/WhatsApp-Image-2020-10-12-at-5.25.35-PM.jpeg"></div>
+                                        <p></p>
+
+                                        <p></p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 no-pad-mob">
+                                        <p class="text-center sectxt-small-data-bold" style="padding-top: 2.5%;     margin-bottom: 0px;">I guide you to and through this by… Helping You Make Better Decisions Faster… along your…<br> Innovative, Spiritually-Minded, Entrepreneurial Thought Leader Journey.</p>
+                                        <p></p>
+                                    </div>
+                                    <p></p>
+                                </div>
+                            </div>
+                            <!--  -->
+                            <div class="row heading-bg">
+                                <!--- Row Start -->
+                                <p></p>
+                                <h3 class="heading-whitetxt-abt">What Next?</h3>
+                            </div>
+                            <!--  -->
+                            <div class="bg-white-abt">
+                                <div class="row">
+                                    <div class="col-md-12 no-pad-mob">
+                                        <p class=" sectxt-small-data" style="text-align: left;"><b>Click</b> the buttons you have not yet explored (Up at top of the page). Not only are the formats of Listen and Watch different from Read, but the content is unique too.</p>
+                                        <p class=" sectxt-small-data" style="text-align: left;"><b>Continue</b> along the numbered path to get my FREE Art Of Decision Making Course [How To Make Better Decisions Faster].</p>
+                                        <p></p>
+                                    </div>
+                                    <p></p>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 no-pad-mob">
+                                        <p class=" sectxt-small-data" style="text-align: left;">Pretty simple, right?</p>
+                                        <p class=" sectxt-small-data" style="text-align: left;">Thanks for checking out CJWIT.com</p>
+                                        <p></p>
+                                    </div>
+                                    <div class="col-md-6 no-pad-mob"><img class="gifsizenew" src="./images/Comp-1.gif"></div>
+                                    <p></p>
+                                </div>
+                                <div class="row">
+                                    <div class="step8 tab-show-section p-3 active col-md-12">
+                                        <div class="count-me-inner">
+                                            <div class="count-me-inner-title">
+                                                <h3>GET NOTIFICATIONS FOR NEW EVENTS AND EPISODES</h3>
+                                            </div>
+                                            <div class="form" style="padding:20px 0 50px;">
+                                                <div class="count-me-form">
+                                                    <div class="col-md-6">
+                                                        <input type="email" name="count-me-email" id="count-mail" placeholder="Your Email">
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="count-me-submit">
+                                                            <button class="count-me-submit-btn"><span><i class="fa fa-bell" aria-hidden="true"></i></span> Keep Me In The Loop!</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a href="#tmpDiv1"><button id="myBtn" title="Go to top" style="display: block;"><i class="fas fa-arrow-up" aria-hidden="true"></i> Scroll Up</button></a>
+                                        </div>
+                                    </div>
+                                    <p></p>
+                                </div>
+                            </div>
                         </div>
 
+
                     </div>
+                    <!-- read section -->
+                    <!-- audio section -->
+                    <div class="step8 audio-section tab-show-section p-3">
+                        <div class="audio-content col-md-12">
+                            <audio src="./images/audio.mp3" controls class="audio-content-data"></audio>
+
+                        </div>
+                        <div class="audio-download col-md-3">
+                            <a href="#" class="audio-download-link">Download</a>
+                        </div>
+                    </div>
+                    <!-- audio section -->
+                    <!-- social section -->
+                    <div class="step8 social-section tab-show-section p-3">
+                        <div class="social-section-main">
+                            <div class="social-section-title">
+                                <h2>Social Share :</h2>
+                            </div>
+                            <div class="social-section-boxes row">
+                                <div class="col-md-1"></div>
+                                <div class="social-box col-md-2">
+                                    <a href="#" class="social-box-links"><img src="./images/eamil-icon-1.jpg" alt=""></a>
+                                </div>
+                                <div class="social-box col-md-2">
+                                    <a href="#" class="social-box-links"><img src="./images/facebook-icon-1.jpg" alt=""></a>
+                                </div>
+                                <div class="social-box col-md-2">
+                                    <a href="#" class="social-box-links"><img src="./images/twitter-icon.jpg" alt=""></a>
+                                </div>
+                                <div class="social-box col-md-2">
+                                    <a href="#" class="social-box-links"><img src="./images/linkedin-icon-1.jpg" alt=""></a>
+                                </div>
+                                <div class="social-box col-md-2">
+                                    <a href="#" class="social-box-links"><img src="./images/reddit-icon.png" alt=""></a>
+                                </div>
+                                <div class="col-md-1"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- social section -->
+                    <!-- download section -->
+                    <div class="step8 download-section tab-show-section p-3">
+                        <div class="download-section-inner">
+                            <div class="col-md-6">
+                                <div class="col-md-7 download-links">
+                                    <a href="#" class="dow-download-link"><span><i class="fa fa-download" aria-hidden="true"></i></span>Download</a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="col-md-7 download-share-links">
+                                    <a href="#" class="dow-slide-here-link"><span><i class="fas fa-sliders-h"></i></span>Slide Share</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- download section -->
+                    <!-- count me in section -->
+                    <div class="step8 count-me-section tab-show-section p-3">
+                        <div class="count-me-inner">
+                            <div class="count-me-inner-title">
+                                <h3>GET NOTIFICATIONS FOR NEW EVENTS AND EPISODES</h3>
+                            </div>
+                            <div class="form">
+                                <div class="count-me-form">
+                                    <div class="col-md-6">
+                                        <input type="email" name="count-me-email" id="count-mail" placeholder="Your Email">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="count-me-submit">
+                                            <button class="count-me-submit-btn"><span><i class="fa fa-bell" aria-hidden="true"></i></span> Keep Me In The Loop!</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- count me in section -->
                 </div>
             </div>
         </div>
         <!-- step 5 -->
 
         <!-- step 6 starts -->
-        <div class="step-9-main main-class">
+        <div class="step-9-main collapse cdata_9 main-class" id="stepNine" aria-labelledby="headingNine" data-parent="#main_content">
             <div class="container">
                 <div class="step-9-inner row">
                     <div class="step-9-inner-left col-md-6">
@@ -1307,6 +1108,13 @@
                     </div>
 
                 </div>
+            </div>
+        </div>
+        <!-- step 4 starts -->
+
+        <!-- navigatation -->
+        <div class="navigation-main">
+            <div class="container">
                 <div class="nav-links row">
                     <div class="col-md-3">
                         <a href="#" class="main-prev-link"><i class="fas fa-chevron-left"> </i>Previous </i></a>
@@ -1317,7 +1125,8 @@
                 </div>
             </div>
         </div>
-        <!-- step 4 starts -->
+
+        <!-- navigatation -->
 
     </main>
     <!-- main starts -->
@@ -1366,6 +1175,8 @@
 
     <script src="./js/jQuery.min.js"></script>
     <script src="./js/Bootstrap.bundle.min.js"></script>
+    <script src="./js/slick.min.js" type="text/javascript"></script>
+
     <script src="./js/custom.js"></script>
 </body>
 
