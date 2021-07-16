@@ -637,6 +637,7 @@ a.main-prev-link i {
     color: #fff;
     font-size: 12px;
     margin: 0;
+    width: 100%;
 }
 
 .foooter-middle-links {
@@ -649,6 +650,11 @@ a.main-prev-link i {
 .footer-contact-link {
     border-right: 1px solid #fff;
     padding: 0 10px;
+}
+
+.first-row-vid.video-com {
+    padding-bottom: 29.25%;
+    position: relative;
 }
 
 .footer-contact-link a {
@@ -760,12 +766,15 @@ a.main-prev-link i {
     text-align: center;
     padding-top: 10px;
 }
-.tabs-button >div:nth-child(1){
+
+.tabs-button>div:nth-child(1) {
     padding-right: 4px;
 }
-.tabs-button >div:nth-child(even){
+
+.tabs-button>div:nth-child(even) {
     padding-left: 4px;
 }
+
 .tabs-read-btn {
     display: block;
     position: relative;
@@ -912,11 +921,11 @@ a.main-prev-link i {
 }
 
 .num .pull-left {
-    width: 60%;
+    width: 50%;
 }
 
 .num .pull-right {
-    width: 40%;
+    width: 50%;
 }
 
 .num .main-box1 {
@@ -1957,10 +1966,6 @@ span.carousel-control-next-icon {
     color: #060a25;
 }
 
-#mob {
-    display: none;
-}
-
 .img-full-width {
     width: 100%;
     height: auto;
@@ -2137,6 +2142,8 @@ ul.pad-t1o {
     width: 25px;
     text-align: center;
 }
+
+
 /* 
 .slick-track:nth-child(1) {
     width: 25000px!important;
@@ -2144,6 +2151,7 @@ ul.pad-t1o {
 .slick-slide.slick-current{
     width: 1000px!important;
 } */
+
 .class-to-style.prev-btn.slick-arrow {
     position: absolute;
     top: 45%;
@@ -2212,102 +2220,101 @@ i.fas.fa-caret-right {
 
 /* step eight (8)*/
 
-
-.toggleslide{
+.toggleslide {
     text-align: right;
 }
 
 #owl-carousel .owl-nav button.owl-prev,
-#owl-carousel .owl-nav button.owl-next{
-    background: RGBA(0,0,0,0.67);
+#owl-carousel .owl-nav button.owl-next {
+    background: RGBA(0, 0, 0, 0.67);
     position: absolute;
 }
 
-#owl-carousel .owl-nav button.owl-prev{
+#owl-carousel .owl-nav button.owl-prev {
     left: 0;
     top: 43%;
 }
-#owl-carousel .owl-nav button.owl-next{
+
+#owl-carousel .owl-nav button.owl-next {
     right: 0;
     top: 43%;
 }
 
-#stop{
+#stop {
     display: none;
 }
 
-.toggleslide button{
+.toggleslide button {
     appearance: none;
     border: none;
     box-shadow: none;
     background: none;
-    background: RGBA(0,0,0,0.67);
+    background: RGBA(0, 0, 0, 0.67);
     opacity: 1;
     padding: 7px 12px 7px 12px;
     box-shadow: none;
     border-width: 0px;
     border-style: solid;
     border-color: #000000;
-    border-color: RGBA(0,0,0,1);
+    border-color: RGBA(0, 0, 0, 1);
     border-radius: 3px;
     color: #fff;
 }
 
-.toggleslide button{
+.toggleslide button {
     font-size: 14px;
 }
 
 
-
-
 /* responsive for  mob nav */
-@media screen and (min-width:769px){
-    .mob_sticky{
+
+@media screen and (min-width:769px) {
+    .mob_sticky {
         display: none;
     }
-    .step_menu{
+    .step_menu {
         display: block;
     }
 }
+
 @media screen and (max-width:768px) {
-    .step_menu{
+    .step_menu {
         display: none;
     }
-    .sticky-csteps .container{
-        max-width:100%;
+    .sticky-csteps .container {
+        max-width: 100%;
     }
-    .sticky-wrapper{
+    .sticky-wrapper {
         display: none;
     }
-    .sticky-csteps{
+    .sticky-csteps {
         border-top: 2px solid #869bad;
     }
     .mob_sliderNav h2,
     .mob_sliderNav p,
-    .mob_sliderNav i{
+    .mob_sliderNav i {
         color: #34bbee;
         margin: 0;
     }
-    .mob_sliderNav p{
+    .mob_sliderNav p {
         font-size: 20px;
     }
-    .mob_sliderNav i{
+    .mob_sliderNav i {
         font-size: 20px;
     }
-    .mob_sliderNav{
+    .mob_sliderNav {
         position: relative;
         padding: 1rem 0;
     }
-    .mob_sliderNav h2{
+    .mob_sliderNav h2 {
         display: inline;
         font-size: 20px;
     }
-    .mob_sliderNav .item{
+    .mob_sliderNav .item {
         text-align: center;
     }
-
     .mob_sliderNav .left_arrow,
-    .mob_sliderNav .right_arrow{
+    .mob_sliderNav .right_arrow {
         position: absolute;
         background: transparent;
         font-size: 16px;
@@ -2315,16 +2322,15 @@ i.fas.fa-caret-right {
         padding: 0;
         color: #fff;
     }
-    .left_arrow{
+    .left_arrow {
         top: 45px;
         left: 0;
     }
-    .right_arrow{
+    .right_arrow {
         right: 0;
         top: 45px;
     }
     .mob_sliderNav .item i.checked {
         display: none;
     }
-
 }
