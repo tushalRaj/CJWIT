@@ -207,7 +207,7 @@ $('[data-target="#stepThree"], [data-target="#stepSix"], [data-target="#stepTwel
         $('.cstp_2').removeClass('active')
         $('.cstp_3').addClass('active')
     })
-    // 
+    
 
 $('.cstp_7').click(function(e) {
     e.preventDefault()
@@ -250,13 +250,171 @@ $('[data-target="#stepNine"]').on('click', function() {
 $(document).ready(function() {
 
     // slick slider
-    $('.slickmg').slick({
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
+   
+    // $('.slickmg').slick({
+    //     infinite: true,
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1,
+    //     autoplay:false,
+    //     prevArrow: '<div class="class-to-style prev-btn"><i class="fas fa-caret-left"></i><span class="sr-only">Prev</span></div>',
+    //     nextArrow: '<div class="class-to-style next-btn"><i class="fas fa-caret-right"></i><span class="sr-only">Next</span></div>',
+    // });
+    
+    // $('.slick-demo').slick();
+    var navslide = $('.mob_sliderNav')
+    $(navslide).slick({
+        loop:false,
+        infinite: false,
+        initialSlide: 0,
+        margin:10,
+        nav:true,
+        items:1,
+        autoplay:false,
+        prevArrow:'<i class="fas fa-chevron-left left_arrow"></i>',
+        nextArrow:'<i class="fas fa-chevron-right right_arrow"></i>',
+        draggable:false
+    })
+    var hold = false;
 
-        prevArrow: '<div class="class-to-style prev-btn"><i class="fas fa-caret-left"></i><span class="sr-only">Prev</span></div>',
-        nextArrow: '<div class="class-to-style next-btn"><i class="fas fa-caret-right"></i><span class="sr-only">Next</span></div>',
+    navslide.slick("slickSetOption", "accessibility", hold);
+    navslide.slick("slickSetOption", "draggable", hold);
+    navslide.slick("slickSetOption", "swipe", hold);
+    navslide.slick("slickSetOption", "touchMove", hold);
+  
+    hold = !hold;
+    $(".cdata_1").addClass('current')
+    navslide.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+        // var i = (currentSlide ? currentSlide : 0) + 1;
+        console.log(currentSlide)
+    // next slide/page
+        if(currentSlide == 0){
+            $(".cdata_1").collapse("show")
+            $('.cstp_2').removeClass('active')
+            $('.cstp_3').removeClass('active')
+            $(".cdata_3").removeClass('current')
+            $(".cdata_1").addClass('current')
+        }else if(currentSlide == 1){
+            $('.left_arrow').show()
+            $(".cdata_2").collapse("show")
+            $('.cstp_1').removeClass('active')
+            $('.cstp_3').removeClass('active')
+             $(".cdata_3").removeClass('current')
+             $(".cdata_1").removeClass('current')
+        }else if((currentSlide == 2)){
+            $(".cdata_1").removeClass('current')
+            $(".cdata_3").addClass('current')
+            $(".cdata_3").collapse("show")
+            $('.cstp_1').removeClass('active')
+            $('.cstp_2').removeClass('active')
+
+            $('.right_arrow').click(function(){
+                if($('.step-3-main').hasClass('current')){
+                    console.log('hi')
+                    window.location.href = "./vlog.html"
+                }
+            })
+        }
+         if((currentSlide == 2)){
+            $(".cdata_3").addClass('current')
+            $(".cdata_3").collapse("show")
+            $('.cstp_1').removeClass('active')
+            $('.cstp_2').removeClass('active')
+
+            $('.right_arrow').click(function(){
+                if($('.step-6-main').hasClass('current')){
+                    console.log('hi')
+                    window.location.href = "./about.html"
+                }
+            })
+        }
+        
+         if((currentSlide == 2)){
+            $(".cdata_3").addClass('current')
+            $(".cdata_3").collapse("show")
+            $('.cstp_1').removeClass('active')
+            $('.cstp_2').removeClass('active')
+            $('.right_arrow').click(function(){
+                if($('.step-9-main').hasClass('current')){
+                    console.log('hi')
+                    window.location.href = "./social.html"
+                }
+            })
+        }
+         if((currentSlide == 2)){
+            $(".cdata_3").addClass('current')
+            $(".cdata_3").collapse("show")
+            $('.cstp_1').removeClass('active')
+            $('.cstp_2').removeClass('active')
+            $('.right_arrow').click(function(){
+                if($('.step-12-main').hasClass('current')){
+                    console.log('hi')
+                    window.location.href = "./academy.html"
+                }
+            })
+        }
+
+        // prev slide/page
+        $('.left_arrow ').click(function(){
+            if($('.step-4-main').hasClass('current')){
+                window.location.href = "./index.html"
+            }
+        })
+        $('.left_arrow ').click(function(){
+            if($('.step-7-main').hasClass('current')){
+                window.location.href = "./vlog.html"
+            }
+        })
+        $('.left_arrow ').click(function(){
+            if($('.step-10-main').hasClass('current')){
+                window.location.href = "./about.html"
+            }
+        })
+        $('.left_arrow ').click(function(){
+            if($('.step-13-main').hasClass('current')){
+                window.location.href = "./social.html"
+            }
+        })
+        
+        // hide arrows
+        if($('.step-15-main').hasClass('current')){
+            $('.right_arrow').hide()
+        }else{
+            $('.right_arrow').show()
+        }
+        
     });
-    $('.slick-demo').slick();
+    if($('.step-1-main').hasClass('current')){
+        $('.left_arrow').hide()
+    }
+  
+
+  $(this).toggleClass("disabled");
+    var owl = $('.owl-carousel')
+    owl.owlCarousel({
+        dots: false,
+        loop:true,
+        nav: true,
+        navText: ["<img src='./images/prev.svg'>","<img src='./images/next.svg'>"],
+        items: 1,
+        autoplay:true,
+        autoplayTimeout:1000,
+        autoplayHoverPause:true
+    })
+
+
+    $('#play').on('click',function(){
+        owl.trigger('play.owl.autoplay',[1000])
+        $(this).hide()
+        $('#stop').show()
+        console.log('stoped')
+    })
+    $('#stop').on('click',function(){
+        owl.trigger('stop.owl.autoplay')
+        $(this).hide()
+        $('#play').show()
+        console.log('played')
+    })
+
+    
 })
+
